@@ -15,11 +15,21 @@ html body{
 }
 
 body{
-    padding: 0 2vw;
+    padding: 9vh 2vw 0 2vw;
 }
 
 a{
     text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 2vw;
+    background-color: #fff;
+    z-index: 1000;
 }
 
 nav{
